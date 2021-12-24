@@ -1,3 +1,4 @@
 <?php
+error_reporting(E_ALL);
 
-echo 'ok';exit;
+(require __DIR__ . '/../config/bootstrap.php')->run();
