@@ -12,4 +12,6 @@ if($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
+print_r($_SERVER);exit();
+
 (require __DIR__ . '/../config/bootstrap.php')->run();
